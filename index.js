@@ -28,7 +28,7 @@ app.get("/", (request, response) => {
 app.listen(port, () => console.log("Server Online!"))
 
 /* Connect discord.js to bot user */
-client.login(process.env.TOKEN).catch(console.error);
+client.login('NjAzNjI2MzcwNjc2ODE3OTQ1.XTiI9g._gl5uBPF5i1tpiZFMlYAlChnvU4').catch(console.error);
 
 /* When bot user is ready: */
 client.on('ready', function (evt, callback) {
